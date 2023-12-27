@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .iv-co {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,12 +39,44 @@ section {
 }
 
 .top-banner {
-    background-image: url(baner\ jpng.jpg);
+    background-image: url(bannner2png.jpg);
     background-repeat: no-repeat;
 }
 
 .dream-big {
-    background-image: url(wwwr\ hgr\ png.jpg);
+    background-image: url(banner4pgd.jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.expreience-area {
+    background-image: url(banner514.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.baby-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 10px solid;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#ev-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-experince {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
